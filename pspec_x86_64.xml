@@ -2,15 +2,15 @@
     <Source>
         <Name>python-idna_ssl</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Patch ssl.match_hostname for Unicode(idna) domains support</Summary>
         <Description xml:lang="en">Patch ssl.match_hostname for Unicode(idna) domains support
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-idna_ssl</Name>
@@ -19,23 +19,23 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/__pycache__/idna_ssl.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/idna_ssl-1.1.0-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/idna_ssl-1.1.0-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/idna_ssl-1.1.0-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/idna_ssl-1.1.0-py3.6.egg-info/not-zip-safe</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/idna_ssl-1.1.0-py3.6.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/idna_ssl-1.1.0-py3.6.egg-info/top_level.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/idna_ssl.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/__pycache__/idna_ssl.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/idna_ssl-1.1.0-py3.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/idna_ssl-1.1.0-py3.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/idna_ssl-1.1.0-py3.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/idna_ssl-1.1.0-py3.7.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/idna_ssl-1.1.0-py3.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/idna_ssl-1.1.0-py3.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/idna_ssl.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-12-20</Date>
+        <Update release="2">
+            <Date>2020-01-25</Date>
             <Version>1.1.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
